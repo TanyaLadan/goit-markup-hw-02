@@ -1,0 +1,193 @@
+:root {
+    --primary-text-color:#212121;
+    --secondary-text-color:#757575;
+    --accent:#2196F3;
+    --background-footer:#2F303A;
+}
+/* Основний колір макету #212121 */
+/* Другорядний колір #757575 */
+/* акцент #2196F3 */
+/* білий бегграунду навігації #FFFFFF */
+/* колір фону секція 2 F5F5F5 */
+/* другорядний колір фону F5F4FA*/
+/* колір футера та героя 2F303A  */
+body {
+color:var(--primary-text-color);
+background-color: #FFFFFF;
+font-family: 'Roboto', 'Raleway', sans-serif;
+}
+.list {
+    list-style: none;
+}
+/* logo */
+.logo {
+    color: #000000;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+}
+.logopart {
+    color: var(--accent);
+}
+
+/* site-nav*/
+.site-nav .link {
+color: var(--primary-text-color);
+font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.site-nav .link:hover, .site-nav .link:focus {
+color: var(--accent);
+}
+.contact-list .contacts {
+color: var(--primary-text-color);
+font-weight: 500;
+    font-size: 14px;
+    line-height:1.14;
+    letter-spacing: 0.02em;
+}
+.contact-list .contacts:hover, .contact-list .contacts:focus {
+    color: var(--accent);
+}
+
+/* hero */
+.hero {
+background: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.btn {
+    color: #FFFFFF;
+    background-color: var(--accent);
+    cursor: pointer;
+    font-family: 'Roboto';
+}
+
+/* about us */
+.about-us {
+background: #F5F5F5;}
+
+.about-us-title {
+font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.description {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--secondary-text-color);
+}
+
+.works-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+/* team */
+.team {
+    background: #F5F4FA;
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.name {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.job-title {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+/* footer */
+.logo-footer {
+    font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--accent);
+        text-decoration: none;
+}
+.logoparts {
+    color: #FFFFFF;
+}
+.footer {
+    background: var(--background-footer);
+}
+.address {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-contacts {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+.contact-list .footer-contacts:hover, .contact-list .footer-contacts:focus {
+    color: var(--accent);
+}
+
+/* сторінка 2 */
+.btn-filters {
+    font-family: 'Roboto';
+    background-color: #F5F4FA;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.filters-list .btn-filters:hover, .filters-list .btn-filters:focus {
+color: FFFFFF;
+background-color: var(--accent);
+}
+
+.our-work-title{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+
+.descriptions-work{
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
