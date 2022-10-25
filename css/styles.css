@@ -19,6 +19,13 @@ font-family: 'Roboto', 'Raleway', sans-serif;
 .list {
     list-style: none;
 }
+.link {
+    text-decoration: none;
+}
+.contacts {
+    text-decoration: none;
+}
+
 /* logo */
 .logo {
     color: #000000;
@@ -74,7 +81,11 @@ background: #2F303A;
     color: #FFFFFF;
     background-color: var(--accent);
     cursor: pointer;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
 }
 
 /* about us */
@@ -83,7 +94,6 @@ background: #F5F5F5;}
 
 .about-us-title {
 font-style: normal;
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -97,7 +107,6 @@ font-style: normal;
 }
 
 .works-title {
-    font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
@@ -109,7 +118,6 @@ font-style: normal;
     background: #F5F4FA;
 }
 .team-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -132,7 +140,8 @@ font-style: normal;
 }
 /* footer */
 .logo-footer {
-    font-weight: 700;
+    font-family: 'Raleway';
+        font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
@@ -150,12 +159,16 @@ font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    text-decoration: none;
+    font-style: normal;
 }
 .footer-contacts {
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+        font-style: normal;
 }
 .contact-list .footer-contacts:hover, .contact-list .footer-contacts:focus {
     color: var(--accent);
@@ -163,7 +176,7 @@ font-style: normal;
 
 /* сторінка 2 */
 .btn-filters {
-    font-family: 'Roboto';
+    font-family: inherit;
     background-color: #F5F4FA;
     cursor: pointer;
     font-weight: 500;
@@ -171,6 +184,7 @@ font-style: normal;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+
 }
 
 .filters-list .btn-filters:hover, .filters-list .btn-filters:focus {
@@ -179,7 +193,6 @@ background-color: var(--accent);
 }
 
 .our-work-title{
-    font-weight: 700;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
